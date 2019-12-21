@@ -17,8 +17,3 @@ samples, guidance on mobile development, and a full API reference.
 # flutter-splash-sample
 
 For more information, please check this article: https://www.ismailoguzhanay.com/flutter-splash-screen-sample/
-
-
-https://i0.wp.com/www.ismailoguzhanay.com/wp-content/uploads/2019/12/splash_screen.png?w=1080&ssl=1
-
-https://i1.wp.com/www.ismailoguzhanay.com/wp-content/uploads/2019/12/main_screen.png?w=1080&ssl=1
