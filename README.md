@@ -1,6 +1,6 @@
 # flutter_splash
 
-A new Flutter project.
+A Splash Screen Sample Project with Flutter
 
 ## Getting Started
 
@@ -17,3 +17,5 @@ samples, guidance on mobile development, and a full API reference.
 # flutter-splash-sample
 
 For more information, please check this article: https://www.ismailoguzhanay.com/flutter-splash-screen-sample/
+
+
