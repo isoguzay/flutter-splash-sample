@@ -20,8 +20,9 @@ class ApiScreen extends StatelessWidget {
               return ListView(
                   children: comments
                       .map(
-                        (Comment comment) =>
-                            ListTile(title: Text(comment.title)),
+                        (Comment comment) => ListTile(
+                            title: Text(comment.email),
+                            subtitle: Text(comment.body)),
                       )
                       .toList());
             } else {

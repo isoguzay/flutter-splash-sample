@@ -3,7 +3,7 @@ import 'package:flutter_splash/models/Comment.dart';
 import 'package:http/http.dart';
 
 class ApiService {
-  final String apiServiceUrl = "https://jsonplaceholder.typicode.com/posts";
+  final String apiServiceUrl = "https://jsonplaceholder.typicode.com/comments";
 
   Future<List<Comment>> getComments() async {
     Response res = await get(apiServiceUrl);
