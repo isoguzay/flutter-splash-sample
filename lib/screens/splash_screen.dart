@@ -35,7 +35,10 @@ class _SplashScreenState extends State<SplashScreen> {
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Image(image: AssetImage('lib/themes/images/flutter.png'), height: 200, width: 200),
+              Image(
+                  image: AssetImage('lib/themes/images/flutter.png'),
+                  height: 200,
+                  width: 200),
               Text("Splash Screen",
                   style: new TextStyle(fontFamily: "Poppins", fontSize: 16)),
             ],

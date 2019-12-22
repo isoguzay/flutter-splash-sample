@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_splash/screens/api_screen.dart';
 import 'package:flutter_splash/screens/main_screen.dart';
 import 'package:flutter_splash/screens/splash_screen.dart';
 
@@ -15,7 +16,8 @@ class MySplashApp extends StatelessWidget{
       home: SplashScreen(),
       routes: {
         '/splash': (context) => SplashScreen(),
-        '/main': (context) => MainScreen()
+        '/main': (context) => MainScreen(),
+        '/api': (context) => ApiScreen()
       },
     );
   }
