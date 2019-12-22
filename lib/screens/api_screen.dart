@@ -21,7 +21,14 @@ class ApiScreen extends StatelessWidget {
                   children: comments
                       .map(
                         (Comment comment) => ListTile(
-                            title: Text(comment.email),
+                            // use for handling exceptions from api server entity
+                            title: Text((() {
+                              if (comment.email != null) {
+                                return comment.email;
+                              } else {
+                                return "There is no email information";
+                              }
+                            }())),
                             subtitle: Text(comment.body)),
                       )
                       .toList());
